@@ -502,8 +502,7 @@ In order to use it, you'll need to perform a bit of setup:
         # app/config/config.yml
         twig:
             form_themes:
-                resources:
-                    - 'SonataCoreBundle:Form:colorpicker.html.twig'
+                - 'SonataCoreBundle:Form:colorpicker.html.twig'
 
 Finally, in your form, you may use the form type as follows:
 
